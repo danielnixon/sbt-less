@@ -2,7 +2,7 @@ lazy val root = (project in file(".")).enablePlugins(SbtWeb)
 
 //JsEngineKeys.engineType := JsEngineKeys.EngineType.Node
 
-libraryDependencies += "org.webjars" % "bootstrap" % "3.0.2"
+libraryDependencies += "org.webjars" % "bootstrap" % "3.3.7-1"
 
 LessKeys.compress in Assets := false
 
