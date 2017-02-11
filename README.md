@@ -3,8 +3,7 @@ sbt-less
 
 [![Build Status](https://travis-ci.org/danielnixon/sbt-less.svg?branch=master)](https://travis-ci.org/danielnixon/sbt-less)
 
-Allows less to be used from within sbt. Builds on com.typesafe.sbt:js-engine in order to execute the less compiler along with
-the scripts to verify. js-engine enables high performance linting given parallelism and native JS engine execution.
+A fork of the seemingly abandoned [sbt-less](https://github.com/sbt/sbt-less) plugin.
 
 To use this plugin use the addSbtPlugin command within your project's plugins.sbt (or as a global setting) i.e.:
 
