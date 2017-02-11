@@ -22,7 +22,7 @@ Here are the options:
 Option              | Description
 --------------------|------------
 cleancss            | Compress output using clean-css.
-cleancssOptions     | Pass an option to clean css, using CLI arguments from https://github.com/GoalSmashers/clean-css .
+cleancssOptions     | Pass an option to clean css, using CLI arguments from https://github.com/jakubpawlowicz/clean-css .
 color               | Whether LESS output should be colorised
 compress            | Compress output by removing some whitespaces.
 globalVariables     | Variables that will be placed at the top of the less file.
