@@ -33,11 +33,11 @@ scriptedSettings
 scriptedLaunchOpts += s"-Dproject.version=${version.value}"
 
 libraryDependencies ++= Seq(
-  "org.webjars" % "less-node" % "2.7.2",
-  "org.webjars" % "mkdirp" % "0.5.0",
+  "org.webjars.npm" % "less" % "2.7.2",
+  "org.webjars.npm" % "mkdirp" % "0.5.1",
   "org.webjars.npm" % "clean-css" % "4.0.5",
-  "org.webjars.npm" % "less-plugin-clean-css" % "1.5.1" intransitive(),
-  "org.webjars" % "es6-promise-node" % "2.1.1"
+  "org.webjars.npm" % "less-plugin-clean-css" % "1.5.1" exclude("org.webjars.npm", "less"),
+  "org.webjars.npm" % "es6-promise" % "4.0.3"
 )
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-js-engine" % "1.1.4")
