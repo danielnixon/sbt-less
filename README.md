@@ -2,6 +2,7 @@ sbt-less
 ========
 
 [![Build Status](https://travis-ci.org/danielnixon/sbt-less.svg?branch=master)](https://travis-ci.org/danielnixon/sbt-less)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.danielnixon/sbt-less/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.danielnixon/sbt-less)
 
 A fork of the seemingly abandoned [sbt-less](https://github.com/sbt/sbt-less) plugin.
 
